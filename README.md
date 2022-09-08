@@ -147,6 +147,24 @@ Install react bootstrap
 
 check package.json similar to "react-bootstrap": "^2.5.0"
 
+## static array using map
+
+Create  Arraymapping_7 componet
+
+Create static array
+
+Using map() show array list
+
+     const toDoList = () => {
+        return MOCK_DATA.map((item) =>
+            <li key={item.id}>{item.todoItem} </li>
+        )
+    }
+
+Display list 
+    
+     <ul >{toDoList()} </ul>
+
 
 
 
