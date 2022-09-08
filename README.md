@@ -83,6 +83,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 Create function Componet name is  StaticObjects_4
 
 Create function StaticObjects_4
+
     import React from "react";
 
     function StaticObjects_4(){
@@ -105,4 +106,28 @@ import this Componet on App.js file
 Get  StaticObjects like one attribute 
 
      <StaticObjects/>
+
+## Create blog detail layout using CSS.
+
+Create BlogLayout_5 functional component
+
+Create blogPosts array with title,image,body & author
+
+    Using map() show blogs
+    {blogPosts.map((blog) => (
+        <div className="post-container">
+             <h3 className="heading">{blog.title}</h3>
+             <img className="image" src={blog.imgUrl} alt="post" />
+             <h5>{blog.body}</h5>
+                <div className="info">
+                    <h4>Written by: {blog.author}</h4>
+                </div>
+        </div>
+     ))}
+
+Create css file and add css
+
+import BlogLayout_5  on App.js
+
+
 

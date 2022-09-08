@@ -1,12 +1,13 @@
 
 import './App.css';
-import StaticObjects from './StaticObjects_4';
+import BlogLayout from './BlogLayout_5';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-          <StaticObjects/>
-      </header>
+    <div className="main-container">
+      <h1 className="main-heading">
+        Blog App using React Js
+      </h1>
+      <BlogLayout />
     </div>
   );
 }
