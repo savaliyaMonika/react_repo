@@ -165,6 +165,23 @@ Display list
     
      <ul >{toDoList()} </ul>
 
+### Basic state Example
+
+Cretae BasicUseState_9 component 
+
+Add text box using type message
+
+import useState in react app
+
+Call onChage event on text box and call state 
+        
+        const [message, setMassage] = useState('');
+
+Get message 
+
+    <strong>{message}</strong>
+
+
 
 
 

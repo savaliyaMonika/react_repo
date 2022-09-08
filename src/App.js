@@ -1,11 +1,11 @@
 
 import './App.css';
-import Arraymapping from './Arraymapping_7';
+import BasicUseState from './BasicUseState_9';
 import 'bootstrap/dist/css/bootstrap.css';
 function App() {
   return (
     <div className="main-container">
-         <Arraymapping />
+         <BasicUseState />
     </div>
   );
 }
