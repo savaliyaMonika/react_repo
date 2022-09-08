@@ -68,3 +68,41 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# React JS Learning
+
+##  Create a React Project
+
+        npx create-react-app my-app
+## Try to run and get a working Welcome Page.
+	cd my-app  // get directory on you react app
+    npm start  // run react app
+
+## Try to render data from static objects eg. Name,Surname
+
+Create function Componet name is  StaticObjects_4
+
+Create function StaticObjects_4
+    import React from "react";
+
+    function StaticObjects_4(){
+        const name = 'Monika';
+        const surname = 'Savaliya';
+    
+        return(
+            <>
+            <h1> Hi ,Good Morning</h1>
+            <p>My name is {name} {surname} </p>
+            </>
+        );
+    }
+    export default StaticObjects_4;
+
+import this Componet on App.js file 
+
+    import StaticObjects from './StaticObjects_4';
+
+Get  StaticObjects like one attribute 
+
+     <StaticObjects/>
+
