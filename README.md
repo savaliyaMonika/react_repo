@@ -182,7 +182,20 @@ Get message
     <strong>{message}</strong>
 
 
+## Show / Hide HTML tag on button click.
 
+Create  ShowHideButton_9 component
+
+Add two button using react bootstrap 
+
+    import { Button } from "react-bootstrap";
+
+On hide show button  pass true and false
+
+Change show value using useState
+
+Show html tag based on true false
+        
 
 
 
