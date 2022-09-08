@@ -16,7 +16,7 @@ function BlogLayout_5() {
             author: "Nishant Singh ",
             imgUrl:
                 "https://media.geeksforgeeks.org/img-practice/banner/diving-into-excel-thumbnail.png",
-        },{
+        }, {
             title: "Data Structure ",
             body: `There are many real-life examples of 
             a stack. Consider an example of plates stacked 

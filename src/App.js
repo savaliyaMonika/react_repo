@@ -1,6 +1,7 @@
 
 import './App.css';
 import BlogLayout from './BlogLayout_5';
+import 'bootstrap/dist/css/bootstrap.css';
 function App() {
   return (
     <div className="main-container">

@@ -129,5 +129,30 @@ Create css file and add css
 
 import BlogLayout_5  on App.js
 
+## react bootstrap
+
+Install bootstrap
+
+    npm install bootstrap
+
+Check bootsrap version in package.json file in react app similar to "bootstrap": "^5.2.1"
+
+Import css file in react app
+
+    import 'bootstrap/dist/css/bootstrap.min.css';
+
+Install react bootstrap
+
+    npm i react-bootstrap
+
+check package.json similar to "react-bootstrap": "^2.5.0"
+
+
+
+
+
+
+
+
 
 
