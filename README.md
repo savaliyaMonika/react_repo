@@ -196,7 +196,13 @@ Change show value using useState
 
 Show html tag based on true false
         
+## Show result of Price into Quantity
 
+Create PriceQuantity_9 component
+
+Add two text inpout adn add onChange event using useState
+
+multiplay two state value. 
 
 
 
