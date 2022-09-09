@@ -1,12 +1,12 @@
 
 import './App.css';
-import PriceQuantity from './PriceQuantity_9';
+import DropdownMenu from './DropdownMenu_9';
 
 import 'bootstrap/dist/css/bootstrap.css';
 function App() {
   return (
     <div className="main-container">
-         <PriceQuantity />
+         <DropdownMenu />
     </div>
   );
 }

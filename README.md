@@ -204,9 +204,15 @@ Add two text inpout adn add onChange event using useState
 
 multiplay two state value. 
 
+## Add Dropdown menu and make Time Converter & Celsius to Fahrenheit converter
 
+Create DropdownMenu_9 componet
 
+Add one dropdown and its's  value is Time and Celsius
 
+Add usdState on dropdown onchanege 
+
+Add Fformula in dropdown value using condition 
 
 
 
