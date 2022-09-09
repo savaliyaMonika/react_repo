@@ -214,5 +214,16 @@ Add usdState on dropdown onchanege
 
 Add Fformula in dropdown value using condition 
 
+##  Increment Decrement Value
+
+Create IncrementDecrement compnet 
+
+Add teo button for increamnet and decrement 
+
+using useState change counter value  on button on click event
+
+
+
+
 
 

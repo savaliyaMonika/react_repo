@@ -1,12 +1,12 @@
 
 import './App.css';
-import DropdownMenu from './DropdownMenu_9';
+import IncrementDecrement from './IncrementDecrement';
 
 import 'bootstrap/dist/css/bootstrap.css';
 function App() {
   return (
     <div className="main-container">
-         <DropdownMenu />
+         <IncrementDecrement />
     </div>
   );
 }
