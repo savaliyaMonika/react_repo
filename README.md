@@ -222,7 +222,25 @@ Add teo button for increamnet and decrement
 
 using useState change counter value  on button on click event
 
+## The Movie DB API using get Data & display using load more button
 
+Create MovieDBAPI component 
+
+Create useState  data & count 
+
+Create useEffect for load api on click on buuton 
+
+Create function getApiData for the call API and get json data in result
+
+Using map() display data 
+
+Add load more botton and change count state on click this button
+
+Count is a page count and change page in api path 
+
+Reload api using new page number 
+
+Append data on post state
 
 
 

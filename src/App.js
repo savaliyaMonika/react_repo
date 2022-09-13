@@ -1,12 +1,12 @@
 
 import './App.css';
-import IncrementDecrement from './IncrementDecrement';
+import MovieDBAPI from './MovieDBAPI';
 
 import 'bootstrap/dist/css/bootstrap.css';
 function App() {
   return (
     <div className="main-container">
-         <IncrementDecrement />
+         <MovieDBAPI />
     </div>
   );
 }
